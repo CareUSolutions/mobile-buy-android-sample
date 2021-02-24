@@ -18,7 +18,7 @@
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
             app:titleEnabled="false">
 
-            <com.shopify.sample.view.widget.image.ImageGalleryView
+            <com.careusolutions.careuandroid.view.widget.image.ImageGalleryView
                 android:id="@+id/image_gallery"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
                     layout="@layout/image_gallery"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
-            </com.shopify.sample.view.widget.image.ImageGalleryView>
+            </com.careusolutions.careuandroid.view.widget.image.ImageGalleryView>
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
@@ -48,7 +48,7 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <com.shopify.sample.view.product.ProductDescriptionView
+        <com.careusolutions.careuandroid.view.product.ProductDescriptionView
             android:id="@+id/product_description"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -58,7 +58,7 @@
                 layout="@layout/product_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
-        </com.shopify.sample.view.product.ProductDescriptionView>
+        </com.careusolutions.careuandroid.view.product.ProductDescriptionView>
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

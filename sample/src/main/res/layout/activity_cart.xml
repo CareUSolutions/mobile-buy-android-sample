@@ -13,7 +13,7 @@
         android:background="?android:attr/colorPrimary"
         app:contentInsetStartWithNavigation="0dp" />
 
-    <com.shopify.sample.view.cart.CartHeaderView
+    <com.careusolutions.careuandroid.view.cart.CartHeaderView
         android:id="@+id/cart_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,9 +24,9 @@
             layout="@layout/cart_header"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
-    </com.shopify.sample.view.cart.CartHeaderView>
+    </com.careusolutions.careuandroid.view.cart.CartHeaderView>
 
-    <com.shopify.sample.view.cart.CartListView
+    <com.careusolutions.careuandroid.view.cart.CartListView
         android:id="@+id/cart_list"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -41,6 +41,6 @@
             android:clipToPadding="false"
             android:orientation="vertical"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
-    </com.shopify.sample.view.cart.CartListView>
+    </com.careusolutions.careuandroid.view.cart.CartListView>
 
 </LinearLayout>

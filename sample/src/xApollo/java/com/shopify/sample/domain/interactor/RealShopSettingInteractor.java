@@ -1,9 +1,9 @@
-package com.shopify.sample.domain.interactor;
+package com.shopify.careuandroid.domain.interactor;
 
-import com.shopify.sample.SampleApplication;
-import com.shopify.sample.domain.ShopSettingsQuery;
-import com.shopify.sample.domain.model.ShopSettings;
-import com.shopify.sample.domain.repository.ShopRepository;
+import com.shopify.careuandroid.SampleApplication;
+import com.shopify.careuandroid.domain.ShopSettingsQuery;
+import com.shopify.careuandroid.domain.model.ShopSettings;
+import com.shopify.careuandroid.domain.repository.ShopRepository;
 
 import io.reactivex.Single;
 

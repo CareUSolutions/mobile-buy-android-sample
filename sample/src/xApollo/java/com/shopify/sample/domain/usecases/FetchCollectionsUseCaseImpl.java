@@ -1,4 +1,4 @@
-package com.shopify.sample.domain.usecases;
+package com.shopify.careuandroid.domain.usecases;
 
 import android.os.Handler;
 import androidx.annotation.NonNull;
@@ -10,11 +10,11 @@ import com.apollographql.apollo.ApolloQueryCall;
 import com.apollographql.apollo.api.Response;
 import com.apollographql.apollo.api.internal.Optional;
 import com.apollographql.apollo.exception.ApolloException;
-import com.shopify.sample.data.apollo.Converter;
-import com.shopify.sample.domain.CollectionPageWithProductsQuery;
-import com.shopify.sample.domain.model.Collection;
-import com.shopify.sample.domain.type.CollectionSortKeys;
-import com.shopify.sample.util.CallbackExecutors;
+import com.shopify.careuandroid.data.apollo.Converter;
+import com.shopify.careuandroid.domain.CollectionPageWithProductsQuery;
+import com.shopify.careuandroid.domain.model.Collection;
+import com.shopify.careuandroid.domain.type.CollectionSortKeys;
+import com.shopify.careuandroid.util.CallbackExecutors;
 
 import java.util.List;
 

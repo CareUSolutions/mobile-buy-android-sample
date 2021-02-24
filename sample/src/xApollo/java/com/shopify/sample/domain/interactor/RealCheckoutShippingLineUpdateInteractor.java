@@ -22,20 +22,20 @@
  *   THE SOFTWARE.
  */
 
-package com.shopify.sample.domain.interactor;
+package com.shopify.careuandroid.domain.interactor;
 
 import androidx.annotation.NonNull;
 
-import com.shopify.sample.SampleApplication;
-import com.shopify.sample.domain.CheckoutShippingLineUpdateQuery;
-import com.shopify.sample.domain.model.Checkout;
-import com.shopify.sample.domain.model.UserMessageError;
-import com.shopify.sample.domain.repository.CheckoutRepository;
-import com.shopify.sample.domain.repository.UserError;
+import com.shopify.careuandroid.SampleApplication;
+import com.shopify.careuandroid.domain.CheckoutShippingLineUpdateQuery;
+import com.shopify.careuandroid.domain.model.Checkout;
+import com.shopify.careuandroid.domain.model.UserMessageError;
+import com.shopify.careuandroid.domain.repository.CheckoutRepository;
+import com.shopify.careuandroid.domain.repository.UserError;
 
 import io.reactivex.Single;
 
-import static com.shopify.sample.util.Util.checkNotBlank;
+import static com.shopify.careuandroid.util.Util.checkNotBlank;
 
 public final class RealCheckoutShippingLineUpdateInteractor implements CheckoutShippingLineUpdateInteractor {
   private final CheckoutRepository repository;

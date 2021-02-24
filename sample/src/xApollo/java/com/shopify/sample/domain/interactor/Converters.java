@@ -22,22 +22,20 @@
  *   THE SOFTWARE.
  */
 
-package com.shopify.sample.domain.interactor;
+package com.shopify.careuandroid.domain.interactor;
 
-import com.shopify.sample.domain.CollectionPageWithProductsQuery;
-import com.shopify.sample.domain.CollectionProductPageQuery;
-import com.shopify.sample.domain.ProductByIdQuery;
-import com.shopify.sample.domain.ShopSettingsQuery;
-import com.shopify.sample.domain.fragment.CheckoutCreateFragment;
-import com.shopify.sample.domain.fragment.CheckoutFragment;
-import com.shopify.sample.domain.fragment.CheckoutShippingRatesFragment;
-import com.shopify.sample.domain.fragment.PaymentFragment;
-import com.shopify.sample.domain.model.*;
+import com.shopify.careuandroid.domain.CollectionPageWithProductsQuery;
+import com.shopify.careuandroid.domain.CollectionProductPageQuery;
+import com.shopify.careuandroid.domain.ProductByIdQuery;
+import com.shopify.careuandroid.domain.ShopSettingsQuery;
+import com.shopify.careuandroid.domain.fragment.CheckoutCreateFragment;
+import com.shopify.careuandroid.domain.fragment.CheckoutFragment;
+import com.shopify.careuandroid.domain.fragment.CheckoutShippingRatesFragment;
+import com.shopify.careuandroid.domain.fragment.PaymentFragment;
 
 import java.math.BigDecimal;
 import java.util.List;
 
-import static com.shopify.sample.util.Util.*;
 import static java.util.Collections.emptyList;
 
 final class Converters {

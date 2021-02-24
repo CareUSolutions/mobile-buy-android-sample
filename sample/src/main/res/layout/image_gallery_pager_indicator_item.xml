@@ -5,7 +5,7 @@
     android:layout_height="@dimen/product_thumbnail_size"
     android:padding="@dimen/image_selection_frame_size">
 
-    <com.shopify.sample.view.widget.image.ShopifyDraweeView
+    <com.careusolutions.careuandroid.view.widget.image.ShopifyDraweeView
         android:id="@+id/image"
         style="@style/ShopifyDraweeView"
         android:layout_width="match_parent"

@@ -17,10 +17,11 @@ android {
   buildToolsVersion androidConfig.buildToolsVersion
 
   defaultConfig {
-    applicationId "com.shopify.sample"
-    minSdkVersion androidConfig.minSdkVersion
-    versionCode 1
-    versionName "1.0"
+    applicationId 'com.careusolutions.careuandroid'
+    minSdkVersion 29
+    targetSdkVersion 29
+    versionCode 2
+    versionName "1.01"
     vectorDrawables.useSupportLibrary = true
   }
 
@@ -78,7 +79,7 @@ android {
       buildConfigField "String", "API_KEY", "\"" + apiKey.toString() + "\""
       buildConfigField "String", "DEFAULT_LOCALE", "\"" + locale.toString() + "\""
 
-      debuggable = true
+      debuggable = false
       minifyEnabled = false
     }
   }

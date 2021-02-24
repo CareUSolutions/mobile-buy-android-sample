@@ -22,7 +22,7 @@
  *   THE SOFTWARE.
  */
 
-package com.shopify.sample;
+package com.shopify.careuandroid;
 
 import com.apollographql.apollo.ApolloCall;
 import com.apollographql.apollo.api.Response;
@@ -39,7 +39,7 @@ import io.reactivex.SingleTransformer;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.exceptions.Exceptions;
 
-import static com.shopify.sample.util.Util.fold;
+import static com.shopify.careuandroid.util.Util.fold;
 
 public final class RxUtil {
 

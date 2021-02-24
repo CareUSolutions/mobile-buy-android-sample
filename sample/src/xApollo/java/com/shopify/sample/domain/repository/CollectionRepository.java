@@ -22,22 +22,22 @@
  *   THE SOFTWARE.
  */
 
-package com.shopify.sample.domain.repository;
+package com.shopify.careuandroid.domain.repository;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.apollographql.apollo.ApolloClient;
 import com.apollographql.apollo.api.internal.Optional;
-import com.shopify.sample.domain.CollectionPageWithProductsQuery;
+import com.shopify.careuandroid.domain.CollectionPageWithProductsQuery;
 
 import java.util.List;
 
 import io.reactivex.Single;
 import io.reactivex.schedulers.Schedulers;
 
-import static com.shopify.sample.RxUtil.rxApolloCall;
-import static com.shopify.sample.util.Util.checkNotNull;
+import static com.shopify.careuandroid.RxUtil.rxApolloCall;
+import static com.shopify.careuandroid.util.Util.checkNotNull;
 
 public final class CollectionRepository {
 

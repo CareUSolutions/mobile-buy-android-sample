@@ -1,10 +1,10 @@
-package com.shopify.sample.data.apollo;
+package com.shopify.careuandroid.data.apollo;
 
-import com.shopify.sample.domain.CollectionPageWithProductsQuery;
-import com.shopify.sample.domain.CollectionProductPageQuery;
-import com.shopify.sample.domain.model.Collection;
-import com.shopify.sample.domain.model.Product;
-import com.shopify.sample.util.Util;
+import com.shopify.careuandroid.domain.CollectionPageWithProductsQuery;
+import com.shopify.careuandroid.domain.CollectionProductPageQuery;
+import com.shopify.careuandroid.domain.model.Collection;
+import com.shopify.careuandroid.domain.model.Product;
+import com.shopify.careuandroid.util.Util;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

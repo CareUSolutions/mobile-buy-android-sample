@@ -22,18 +22,18 @@
  *   THE SOFTWARE.
  */
 
-package com.shopify.sample.domain.interactor;
+package com.shopify.careuandroid.domain.interactor;
 
 import androidx.annotation.NonNull;
 
-import com.shopify.sample.SampleApplication;
-import com.shopify.sample.domain.ProductByIdQuery;
-import com.shopify.sample.domain.model.ProductDetails;
-import com.shopify.sample.domain.repository.ProductRepository;
+import com.shopify.careuandroid.SampleApplication;
+import com.shopify.careuandroid.domain.ProductByIdQuery;
+import com.shopify.careuandroid.domain.model.ProductDetails;
+import com.shopify.careuandroid.domain.repository.ProductRepository;
 
 import io.reactivex.Single;
 
-import static com.shopify.sample.util.Util.checkNotBlank;
+import static com.shopify.careuandroid.util.Util.checkNotBlank;
 
 public final class RealProductByIdInteractor implements ProductByIdInteractor {
   private final ProductRepository repository;

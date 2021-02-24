@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fitsSystemWindows="true"
-        app:layout_behavior="com.shopify.sample.util.FlingBehavior">
+        app:layout_behavior="com.careusolutions.careuandroid.util.FlingBehavior">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:id="@+id/collapsing_toolbar"
@@ -23,7 +23,7 @@
             app:expandedTitleTextAppearance="@style/ExpandedTitleTextAppearance"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
-            <com.shopify.sample.view.widget.image.ShopifyDraweeView
+            <com.careusolutions.careuandroid.view.widget.image.ShopifyDraweeView
                 android:id="@+id/collection_image"
                 style="@style/ShopifyDraweeView"
                 android:layout_width="match_parent"
@@ -44,7 +44,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <com.shopify.sample.view.products.ProductListView
+    <com.careusolutions.careuandroid.view.products.ProductListView
         android:id="@+id/product_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -59,6 +59,6 @@
             android:paddingBottom="@dimen/default_padding"
             android:paddingTop="@dimen/default_padding" />
 
-    </com.shopify.sample.view.products.ProductListView>
+    </com.careusolutions.careuandroid.view.products.ProductListView>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
