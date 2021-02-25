@@ -1,4 +1,4 @@
-package com.shopify.sample;
+package com.shopify.careuandroid;
 
 import android.text.TextUtils;
 
@@ -9,10 +9,10 @@ import com.apollographql.apollo.cache.http.ApolloHttpCache;
 import com.apollographql.apollo.cache.http.DiskLruHttpCacheStore;
 import com.apollographql.apollo.response.CustomTypeAdapter;
 import com.apollographql.apollo.response.CustomTypeValue;
-import com.shopify.sample.domain.type.CustomType;
-import com.shopify.sample.domain.usecases.UseCases;
-import com.shopify.sample.domain.usecases.UseCasesImpl;
-import com.shopify.sample.util.CallbackExecutors;
+import com.shopify.careuandroid.domain.type.CustomType;
+import com.shopify.careuandroid.domain.usecases.UseCases;
+import com.shopify.careuandroid.domain.usecases.UseCasesImpl;
+import com.shopify.careuandroid.util.CallbackExecutors;
 
 import java.math.BigDecimal;
 import java.util.concurrent.TimeUnit;

@@ -22,24 +22,24 @@
  *   THE SOFTWARE.
  */
 
-package com.shopify.sample.domain.interactor;
+package com.shopify.careuandroid.domain.interactor;
 
 import androidx.annotation.NonNull;
 
 import com.apollographql.apollo.exception.ApolloHttpException;
 import com.apollographql.apollo.exception.ApolloNetworkException;
-import com.shopify.sample.SampleApplication;
-import com.shopify.sample.domain.CheckoutShippingRatesQuery;
-import com.shopify.sample.domain.model.Checkout;
-import com.shopify.sample.domain.repository.CheckoutRepository;
-import com.shopify.sample.util.NotReadyException;
-import com.shopify.sample.util.RxRetryHandler;
+import com.shopify.careuandroid.SampleApplication;
+import com.shopify.careuandroid.domain.CheckoutShippingRatesQuery;
+import com.shopify.careuandroid.domain.model.Checkout;
+import com.shopify.careuandroid.domain.repository.CheckoutRepository;
+import com.shopify.careuandroid.util.NotReadyException;
+import com.shopify.careuandroid.util.RxRetryHandler;
 
 import java.util.concurrent.TimeUnit;
 
 import io.reactivex.Single;
 
-import static com.shopify.sample.util.Util.checkNotBlank;
+import static com.shopify.careuandroid.util.Util.checkNotBlank;
 
 public final class RealCheckoutShippingRatesInteractor implements CheckoutShippingRatesInteractor {
   private final CheckoutRepository repository;

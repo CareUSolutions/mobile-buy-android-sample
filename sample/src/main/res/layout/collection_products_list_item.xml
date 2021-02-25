@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.shopify.sample.view.collections.ProductListView android:id="@+id/product_list"
+<com.careusolutions.careuandroid.view.collections.ProductListView android:id="@+id/product_list"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -13,4 +13,4 @@
         android:background="@android:color/transparent"
         android:clipToPadding="false"/>
 
-</com.shopify.sample.view.collections.ProductListView>
+</com.careusolutions.careuandroid.view.collections.ProductListView>

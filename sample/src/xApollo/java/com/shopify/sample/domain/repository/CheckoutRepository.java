@@ -22,7 +22,7 @@
  *   THE SOFTWARE.
  */
 
-package com.shopify.sample.domain.repository;
+package com.shopify.careuandroid.domain.repository;
 
 import androidx.annotation.NonNull;
 
@@ -30,26 +30,26 @@ import com.apollographql.apollo.ApolloClient;
 import com.apollographql.apollo.ApolloQueryCall;
 import com.apollographql.apollo.api.cache.http.HttpCachePolicy;
 import com.apollographql.apollo.api.internal.Optional;
-import com.shopify.sample.RxUtil;
-import com.shopify.sample.domain.CheckoutByIdQuery;
-import com.shopify.sample.domain.CheckoutCompleteWithAndroidPayQuery;
-import com.shopify.sample.domain.CheckoutCreateQuery;
-import com.shopify.sample.domain.CheckoutEmailUpdateQuery;
-import com.shopify.sample.domain.CheckoutShippingAddressUpdateQuery;
-import com.shopify.sample.domain.CheckoutShippingLineUpdateQuery;
-import com.shopify.sample.domain.CheckoutShippingRatesQuery;
-import com.shopify.sample.domain.PaymentByIdQuery;
-import com.shopify.sample.domain.fragment.CheckoutCreateFragment;
-import com.shopify.sample.domain.fragment.CheckoutFragment;
-import com.shopify.sample.domain.fragment.CheckoutShippingRatesFragment;
-import com.shopify.sample.domain.fragment.PaymentFragment;
+import com.shopify.careuandroid.RxUtil;
+import com.shopify.careuandroid.domain.CheckoutByIdQuery;
+import com.shopify.careuandroid.domain.CheckoutCompleteWithAndroidPayQuery;
+import com.shopify.careuandroid.domain.CheckoutCreateQuery;
+import com.shopify.careuandroid.domain.CheckoutEmailUpdateQuery;
+import com.shopify.careuandroid.domain.CheckoutShippingAddressUpdateQuery;
+import com.shopify.careuandroid.domain.CheckoutShippingLineUpdateQuery;
+import com.shopify.careuandroid.domain.CheckoutShippingRatesQuery;
+import com.shopify.careuandroid.domain.PaymentByIdQuery;
+import com.shopify.careuandroid.domain.fragment.CheckoutCreateFragment;
+import com.shopify.careuandroid.domain.fragment.CheckoutFragment;
+import com.shopify.careuandroid.domain.fragment.CheckoutShippingRatesFragment;
+import com.shopify.careuandroid.domain.fragment.PaymentFragment;
 
 import io.reactivex.Single;
 import io.reactivex.schedulers.Schedulers;
 
-import static com.shopify.sample.RxUtil.rxApolloCall;
-import static com.shopify.sample.util.Util.checkNotNull;
-import static com.shopify.sample.util.Util.mapItems;
+import static com.shopify.careuandroid.RxUtil.rxApolloCall;
+import static com.shopify.careuandroid.util.Util.checkNotNull;
+import static com.shopify.careuandroid.util.Util.mapItems;
 
 public final class CheckoutRepository {
   private final ApolloClient apolloClient;

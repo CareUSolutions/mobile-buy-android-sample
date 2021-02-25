@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".view.collections.CollectionListActivity">
+    tools:context="com.careusolutions.careuandroid.view.collections.CollectionListActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <com.shopify.sample.view.collections.CollectionListView
+    <com.careusolutions.careuandroid.view.collections.CollectionListView
         android:id="@+id/collection_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -38,5 +38,5 @@
                 android:clipToPadding="false"
                 android:listDivider="@android:color/holo_green_dark" />
         </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
-    </com.shopify.sample.view.collections.CollectionListView>
+    </com.careusolutions.careuandroid.view.collections.CollectionListView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

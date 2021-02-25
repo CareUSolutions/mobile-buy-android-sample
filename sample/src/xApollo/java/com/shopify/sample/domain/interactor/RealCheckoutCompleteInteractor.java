@@ -22,31 +22,31 @@
  *   THE SOFTWARE.
  */
 
-package com.shopify.sample.domain.interactor;
+package com.shopify.careuandroid.domain.interactor;
 
 import androidx.annotation.NonNull;
 import com.apollographql.apollo.exception.ApolloHttpException;
 import com.apollographql.apollo.exception.ApolloNetworkException;
-import com.shopify.sample.SampleApplication;
-import com.shopify.sample.domain.CheckoutCompleteWithAndroidPayQuery;
-import com.shopify.sample.domain.CheckoutEmailUpdateQuery;
-import com.shopify.sample.domain.PaymentByIdQuery;
-import com.shopify.sample.domain.model.Address;
-import com.shopify.sample.domain.model.Cart;
-import com.shopify.sample.domain.model.Payment;
-import com.shopify.sample.domain.model.UserMessageError;
-import com.shopify.sample.domain.repository.CheckoutRepository;
-import com.shopify.sample.domain.repository.UserError;
-import com.shopify.sample.domain.type.MailingAddressInput;
-import com.shopify.sample.domain.type.TokenizedPaymentInput;
-import com.shopify.sample.util.NotReadyException;
-import com.shopify.sample.util.RxRetryHandler;
+import com.shopify.careuandroid.SampleApplication;
+import com.shopify.careuandroid.domain.CheckoutCompleteWithAndroidPayQuery;
+import com.shopify.careuandroid.domain.CheckoutEmailUpdateQuery;
+import com.shopify.careuandroid.domain.PaymentByIdQuery;
+import com.shopify.careuandroid.domain.model.Address;
+import com.shopify.careuandroid.domain.model.Cart;
+import com.shopify.careuandroid.domain.model.Payment;
+import com.shopify.careuandroid.domain.model.UserMessageError;
+import com.shopify.careuandroid.domain.repository.CheckoutRepository;
+import com.shopify.careuandroid.domain.repository.UserError;
+import com.shopify.careuandroid.domain.type.MailingAddressInput;
+import com.shopify.careuandroid.domain.type.TokenizedPaymentInput;
+import com.shopify.careuandroid.util.NotReadyException;
+import com.shopify.careuandroid.util.RxRetryHandler;
 import io.reactivex.Single;
 
 import java.util.concurrent.TimeUnit;
 
-import static com.shopify.sample.util.Util.checkNotBlank;
-import static com.shopify.sample.util.Util.checkNotNull;
+import static com.shopify.careuandroid.util.Util.checkNotBlank;
+import static com.shopify.careuandroid.util.Util.checkNotNull;
 
 public final class RealCheckoutCompleteInteractor implements CheckoutCompleteInteractor {
   private final CheckoutRepository repository;

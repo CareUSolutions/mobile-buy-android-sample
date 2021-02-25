@@ -1,7 +1,7 @@
-package com.shopify.sample.domain.usecases;
+package com.shopify.careuandroid.domain.usecases;
 
 import com.apollographql.apollo.ApolloClient;
-import com.shopify.sample.util.CallbackExecutors;
+import com.shopify.careuandroid.util.CallbackExecutors;
 
 public final class UseCasesImpl implements UseCases {
 

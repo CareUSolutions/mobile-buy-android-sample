@@ -22,25 +22,25 @@
  *   THE SOFTWARE.
  */
 
-package com.shopify.sample.domain.interactor;
+package com.shopify.careuandroid.domain.interactor;
 
 import androidx.annotation.NonNull;
 
-import com.shopify.sample.SampleApplication;
-import com.shopify.sample.domain.CheckoutCreateQuery;
-import com.shopify.sample.domain.model.Checkout;
-import com.shopify.sample.domain.model.UserMessageError;
-import com.shopify.sample.domain.repository.CheckoutRepository;
-import com.shopify.sample.domain.repository.UserError;
-import com.shopify.sample.domain.type.CheckoutCreateInput;
-import com.shopify.sample.domain.type.CheckoutLineItemInput;
+import com.shopify.careuandroid.SampleApplication;
+import com.shopify.careuandroid.domain.CheckoutCreateQuery;
+import com.shopify.careuandroid.domain.model.Checkout;
+import com.shopify.careuandroid.domain.model.UserMessageError;
+import com.shopify.careuandroid.domain.repository.CheckoutRepository;
+import com.shopify.careuandroid.domain.repository.UserError;
+import com.shopify.careuandroid.domain.type.CheckoutCreateInput;
+import com.shopify.careuandroid.domain.type.CheckoutLineItemInput;
 
 import java.util.List;
 
 import io.reactivex.Single;
 
-import static com.shopify.sample.util.Util.checkNotEmpty;
-import static com.shopify.sample.util.Util.mapItems;
+import static com.shopify.careuandroid.util.Util.checkNotEmpty;
+import static com.shopify.careuandroid.util.Util.mapItems;
 
 public final class RealCheckoutCreateInteractor implements CheckoutCreateInteractor {
   private final CheckoutRepository repository;
