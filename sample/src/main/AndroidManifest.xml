@@ -22,7 +22,7 @@
 
         <activity
             android:name="com.careusolutions.careuandroid.view.collections.CollectionListActivity"
-            android:icon="@drawable/ic_logo"
+            android:icon="@drawable/ic_launcher"
             android:theme="@style/AppTheme.NoActionBar"
             android:usesCleartextTraffic="true">
 
